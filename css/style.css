@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700;800&family=Ultra&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 15px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* body{
+    font-size: 32px;
+} */
+header, main, nav, footer{
+    padding: 0 14vw;
+}
+header, nav, h2, footer{
+    font-family: 'Source Code Pro', monospace;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17B3D6;
+    color: white;
+    height: 8vh;
+}
+header p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+}
+/*NAV*/
+nav{
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    background-color: #F4ED3D;
+    height: 25vh;
+}
+nav a{
+    font-size: 1.75em;
+    font-weight: 700;
+    color: #17B3D6;
+}
+
+nav a:nth-child(2){
+    width: 100px;
+    height: 100px;
+    padding: 0 3em;
+}
+nav a img{
+    width: 100%;
+    height: auto;
+}
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4ED3D;
+    color: #17B3D6;
+    height: 45vh;
+    padding: 0 0 2em 0;
+}
+main h1{
+    font-size: 3em;
+    margin-top:-0.3em;
+    font-family: 'Ultra', serif;
+}
+/*FOOTER*/
+ footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    background-color: #17B3D6;
+    color: #F4ED3D;
+    height: 18vh;
+    padding-top: 3em; 
+}
+footer address, footer a{
+    font-weight: 400;
+    font-style: normal;
+    color: #F4ED3D;
+}
